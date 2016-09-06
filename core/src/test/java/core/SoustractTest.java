@@ -11,9 +11,4 @@ public class SoustractTest {
         assertEquals(3, SubstractionMachine.getInstance().calculate(6, 3), 0);
     }
 
-    @Test
-    public void testCalculate2() {
-        assertEquals(4, SubstractionMachine.getInstance().calculate(6, 2), 0);
-    }
-
 }
